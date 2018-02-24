@@ -2,8 +2,8 @@ console.log('Loaded!');
 var img=document.getElementById('madi');
 var marginleft=0;
 function moveright(){
-    marginleft+='10px';
-    img.style.margineleft=marginleft+'px';
+    marginleft+='5px';
+    img.style.marginleft=marginleft+'px';
 }
 
 img.onclick=function(){
